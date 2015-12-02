@@ -1,0 +1,5 @@
+{"ID":"001","timestamp":"20151201","payload":{"item":"301","ranking":"5"}},
+{"ID":"002","timestamp":"20151202","payload":{"item":"301","ranking":"4"}},
+{"ID":"003","timestamp":"20151202","payload":{"item":"302","ranking":"2"}},
+{"ID":"004","timestamp":"20151203","payload":{"item":"303","ranking":"5"}},
+{"ID":"005","timestamp":"20151203","payload":{"item":"303","ranking":"5"}}
