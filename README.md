@@ -2,8 +2,9 @@
 
 ## PPT
 
-[Spark SQL](http://www.slideshare.net/liweiyang5/spark-sql-for-training)
-[Spark MLlib](http://www.slideshare.net/liweiyang5/spark-mllib-training-material)
+* [Spark SQL](http://www.slideshare.net/liweiyang5/spark-sql-for-training)
+* [Spark MLlib](http://www.slideshare.net/liweiyang5/spark-mllib-training-material)
+
 
 ## For CDH 5+
 
