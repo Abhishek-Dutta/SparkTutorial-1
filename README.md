@@ -1,27 +1,36 @@
 # SparkTutorial
 
+## PPT
+
+[Spark SQL](http://www.slideshare.net/liweiyang5/spark-sql-for-training)
+[Spark MLlib](http://www.slideshare.net/liweiyang5/spark-mllib-training-material)
+
 ## For CDH 5+
 
 ### Download material
 `$ cd ~\Documents`
 `$ git clone https://github.com/bryanyang0528/SparkTutorial.git`
 
-### PPT
+### Install requirements
 
-[Spark SQL](http://www.slideshare.net/liweiyang5/spark-sql-for-training)
-[Spark MLlib](http://www.slideshare.net/liweiyang5/spark-mllib-training-material)
+```
+$ cd ~\Documents
+$ cd SparkTutorial
+$ git checkout cdh5.5
+$ cd cd Installation/
+$ sh 1_Python2.7.sh 
+```
 
 ### Start Spark Master
 
-`$ cd /usr/lib/spark`
-
-#####Setting Hive
+#####Set Hive
 `$ sudo cp /usr/lib/hive/conf/hive-site.xml /conf`
 
-#####Setting Spark Env
+#####Set Spark Env
+`$ cd /usr/lib/spark`
 `$ sudo vim conf/spark-env.sh`
 
-#####Setting Slave
+#####Set Slave
 `$ vim conf/slaves`
 
 #####Start cluster
