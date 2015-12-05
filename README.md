@@ -1,6 +1,6 @@
 # SparkTutorial
 
-## For CDH 5 up
+## For CDH 5+
 
 ### Download resource
 `$ cd ~\Documents`
@@ -10,21 +10,18 @@
 
 `$ cd /usr/lib/spark`
 
-#Setting Hive
+#####Setting Hive
 `$ sudo cp /usr/lib/hive/conf/hive-site.xml /conf`
 
-#Setting Slave
+#####Setting Spark Env
+`$ sudo vim conf/spark-env.sh`
+
+#####Setting Slave
 `$ vim conf/slaves`
 
-```
-#Gen ssh key
-$ ssh-keygen -t rsa 
-$ eval `ssh-agent -s
-$ ssh-add
-```
-
-#Start cluster
+#####Start cluster
 `$ sudo sbin/start-all.sh `
 
-###
+#####Link to Web UI
+`http://ip::18080 (default)`
 
