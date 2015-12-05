@@ -32,8 +32,8 @@
 
 #####Stand Alone Mode(Cluster Mode)
 ```
-cd
-IPYTHON_OPTS="notebook --ip=0.0.0.0" /usr/lib/spark/bin/pyspark --master spark://ip:7077
+$ cd
+$ IPYTHON_OPTS="notebook --ip=0.0.0.0" /usr/lib/spark/bin/pyspark --master spark://ip:7077
 # other settings
 --executor-memory 20G --total-executor-cores 100 
 ```
