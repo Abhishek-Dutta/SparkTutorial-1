@@ -28,11 +28,14 @@
 `$ sudo sbin/start-all.sh `
 
 #####Link to Web UI
-`http://ip::18080 (default)`
+`http://ip:18080 (default)`
 
 #####Stand Alone Mode(Cluster Mode)
 ```
-IPYTHON_OPTS="notebook --ip=0.0.0.0" /usr/lib/spark/bin/pyspark --master spark://192.168.2.50:7077
+cd
+IPYTHON_OPTS="notebook --ip=0.0.0.0" /usr/lib/spark/bin/pyspark --master spark://ip:7077
 # other settings
 --executor-memory 20G --total-executor-cores 100 
 ```
+##### Link to Ipython Notebook
+`http://ip:8889/tree`
