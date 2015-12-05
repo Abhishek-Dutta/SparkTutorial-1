@@ -2,9 +2,14 @@
 
 ## For CDH 5+
 
-### Download resource
+### Download material
 `$ cd ~\Documents`
 `$ git clone https://github.com/bryanyang0528/SparkTutorial.git`
+
+### PPT
+
+[Spark SQL](http://www.slideshare.net/liweiyang5/spark-sql-for-training)
+[Spark MLlib](http://www.slideshare.net/liweiyang5/spark-mllib-training-material)
 
 ### Start Spark Master
 
