@@ -21,6 +21,11 @@ $ git checkout cdh5.5
 $ cd cd Installation/
 $ sh 1_Python2.7.sh 
 ```
+* If there is no web connection 
+
+* Download Anaconda (https://www.continuum.io/downloads#_unix) to your local machine
+* Move `Anaconda2-2.4.0-Linux-x86_64.sh` to your VM enviroment(`~/Download` or any folder)
+* `bash Anaconda2-2.4.0-Linux-x86_64.sh`
 
 ### Start Spark Master
 
